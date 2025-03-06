@@ -29,7 +29,12 @@ API REST para cadastro e consulta de clientes, seguindo Clean Architecture e uti
     yarn start:prod
     ```
 
-5. **Endpoints da API:**    
+5. **Como rodar os testes unitários:**
+   ```bash
+    yarn test
+    ```
+
+6. **Endpoints da API:**    
     * POST /clients: Cadastra um novo cliente.
     ```bash
     {
